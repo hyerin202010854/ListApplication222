@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Fragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:src="@drawable/backward"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:background="@drawable/back"
+        android:backgroundTint="@color/gray"
+        android:gravity="center"
+        android:text="@string/share"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/addtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="글제목"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <EditText
+        android:id="@+id/addcontent"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:hint="글내용"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

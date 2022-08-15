@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListApplication222</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">logout</string>
+    <string name="login">구글 아이디로 로그인/회원가입 하기</string>
+    <string name="share">공유</string>
+
+</resources>
